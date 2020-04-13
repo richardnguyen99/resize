@@ -1,0 +1,22 @@
+{
+  "include": ["./src/*"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "module": "commonjs",
+    "target": "ES5",
+    "lib": ["DOM", "ES6"],
+    "sourceMap": true,
+    "jsx": "react",
+    "esModuleInterop": true,
+    "rootDir": "src",
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "strictFunctionTypes": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "removeComments": true
+  },
+  "exclude": ["node_modules", "dist"]
+}
