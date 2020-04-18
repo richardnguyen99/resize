@@ -1,5 +1,7 @@
+.awcache/
 **/node_modules/
 **/dist/*
 !**/dist/template.html
+
 
 yarn-error.log
